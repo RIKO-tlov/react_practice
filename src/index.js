@@ -44,3 +44,10 @@ console.log(val3);
 // val3 = "const変数の上書き";
 
 // const val3 = "const変数の再宣言";
+
+//オブジェクトを定義
+const obj1 = {
+  name: "主田",
+  age: 24
+};
+console.log(obj1);
