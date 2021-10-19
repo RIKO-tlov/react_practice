@@ -51,3 +51,7 @@ const obj1 = {
   age: 24
 };
 console.log(obj1);
+
+//プロパティ値を変更
+obj1.name = "nishida";
+console.log(obj1);
