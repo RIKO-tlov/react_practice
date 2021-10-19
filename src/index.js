@@ -55,3 +55,7 @@ console.log(obj1);
 //プロパティ値を変更
 obj1.name = "nishida";
 console.log(obj1);
+
+//プロパティ値追加
+obj1.address = "Tokyo";
+console.log(obj1);
