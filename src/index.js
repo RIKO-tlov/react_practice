@@ -59,3 +59,6 @@ console.log(obj1);
 //プロパティ値追加
 obj1.address = "Tokyo";
 console.log(obj1);
+
+const arr1 = ["dog", "cat"];
+console.log(arr1);
