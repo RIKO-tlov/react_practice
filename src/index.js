@@ -62,3 +62,7 @@ console.log(obj1);
 
 const arr1 = ["dog", "cat"];
 console.log(arr1);
+
+//配列の定義
+arr1[0] = "bird";
+console.log(arr1);
