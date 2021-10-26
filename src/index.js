@@ -63,6 +63,10 @@ console.log(obj1);
 const arr1 = ["dog", "cat"];
 console.log(arr1);
 
-//配列の定義
+//1つ目の値を変更
 arr1[0] = "bird";
+console.log(arr1);
+
+//値を追加
+arr1.push("monkey");
 console.log(arr1);
