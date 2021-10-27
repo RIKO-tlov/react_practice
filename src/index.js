@@ -70,3 +70,22 @@ console.log(arr1);
 //値を追加
 arr1.push("monkey");
 console.log(arr1);
+
+//名前と年齢を格納した変数
+const name = "渡邉";
+const age = 24;
+
+const message = `私の名前は${name}です。年齢は${age}です。`;
+console.log(message);
+
+//こんにちはと返すだけの関数
+function sayHello() {
+  return "こんにちは";
+}
+
+//月の数字を格納した変数
+const month = 1;
+
+//テンプレート文字列の中で関数の呼び出しと掛け算を実行
+const messageToYou = `皆さん${sayHello()}。今日から${month * 3}月です。`;
+console.log(messageToYou);
