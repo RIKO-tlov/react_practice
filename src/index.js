@@ -89,3 +89,24 @@ const month = 1;
 //テンプレート文字列の中で関数の呼び出しと掛け算を実行
 const messageToYou = `皆さん${sayHello()}。今日から${month * 3}月です。`;
 console.log(messageToYou);
+
+//アロー関数
+const func1 = (value) => {
+  return value;
+};
+console.log(func1("func1です"));
+
+//アロー関数を定義　※引数が1つなのでカッコの省略が可能
+const func2 = value => {
+  return value;
+};
+console.log(func2("func2です"));
+
+//2つ以上の場合はカッコで囲む
+const func3 = (value1, value2) => {
+  return value1 + value2;
+};
+
+//returnの省略
+const func4 = (num1, num2) => num1 + num2;
+console.log(func4(10, 20);
