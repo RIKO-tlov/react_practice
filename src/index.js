@@ -97,7 +97,7 @@ const func1 = (value) => {
 console.log(func1("func1です"));
 
 //アロー関数を定義　※引数が1つなのでカッコの省略が可能
-const func2 = value => {
+const func2 = (value) => {
   return value;
 };
 console.log(func2("func2です"));
@@ -109,4 +109,4 @@ const func3 = (value1, value2) => {
 
 //returnの省略
 const func4 = (num1, num2) => num1 + num2;
-console.log(func4(10, 20);
+console.log(func4(10, 20));
