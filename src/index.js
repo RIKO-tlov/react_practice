@@ -110,3 +110,10 @@ const func3 = (value1, value2) => {
 //returnの省略
 const func4 = (num1, num2) => num1 + num2;
 console.log(func4(10, 20));
+
+//()を用いて一行でまとめる
+const func5 = (val1, val2) => ({
+  name: val1,
+  age: val2
+});
+console.log(func5("莉子", 24));
